@@ -14,8 +14,8 @@ Computer, tablet or Ipad.
 ## technology employed
 * CSS Used to style the project
 * Html file was used create the initial code for the website.
-## link to the project
-[github link](https://otieno100.github.io/IP2-landing-page-for-Insurance-Website/)
+## link to the project Page
+[link to the site on GitHub Pages](https://otieno100.github.io/IP2-landing-page-for-Insurance-Website/)
 
 ### copyright and licence information
 ### licence
