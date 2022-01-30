@@ -232,28 +232,29 @@ padding-bottom: 30px;
 text-align: center;
 justify-content: center;
 align-items: center;
-width: 0 50%;
 justify-content: flex center;
-
+justify-content: space-between;
+background-color: blueviolet;
 }
 #button-1{
     font-size: 30px;
-    margin-right: 40px;
 }
 #button-2{
 
-    font-size: 20px;
-}
-#button-3{
+    font-size: 50px;
+    padding-top: 30px;
 
-margin-right: 30px;
-margin-left: 20px;
-width: 150px;
 
 }
 
 .button-4{
 justify-content: flex center;
+justify-content: center;
+align-items: center;
+width: 90%
+
+
+
 
 }
 
@@ -338,6 +339,7 @@ float: left 70%;
 background-color: #252B42;
 color: white;
 font-size: 25px;
+
 
 }
 
