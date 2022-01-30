@@ -19,7 +19,7 @@
                 </div>
 
                 <div>
-                    <ul class="second">
+                    <ul class="middle-items">
                         <li>Home</li>
                         <li>Product</li>
                         <li>Pricing</li>
@@ -147,27 +147,25 @@
 
     <div class="card">
 
-        <div><img src="v1.png" card-1></div>
+        <div><img src="v1.png" class="card-1"></div>
 
-        <div><img src="v2.png" card-1>></div>
+        <div><img src="v2.png" class="card-1"></div>
 
-        <div><img src="v3.png" card-1>>
+        <div><img src="v3.png" class="card-1">
         </div>
 
-        <div><img src="v4.png" card-1>></div>
+        <div><img src="v4.png" class="card-1"></div>
 
-        <div><img src="v5.png" card-1>></div>
+        <div><img src="v5.png" class="card-1"></div>
 
-        <div><img src="v7.png" card-1>></div>
+        <div><img src="v7.png" class="card-1"></div>
 
     </div>
 
     <div class="button-4">
         <div id="button">
             <div id="button-1">Subscribe For Latest <br>Newsletter</div>
-
-
-            <button id="button-2 button-3">Your Email</button>
+            <input style="width: 500px; height: 40px;" type="text" placeholder="Email Address">
             <button id="button-2">Subscribe</button>
         </div>
     </div>
@@ -185,16 +183,57 @@
 
             <div class="standard-1">
                 <h6>FREE</h6>
-                <P>Organize across all apps by hand</P>
-                <ol>
-                    <li>unlimited product updates</li>
-                    <li>unlimited product updates</li>
-                    <li>unlimited product updates</li>
-                    <li>1GB Cloud storage</li>
-                    <li>Email and community support</li>
+                <P style="font-size: 17px;">Organize across all apps by hand</P>
+                <div style="display: flex; align-items:center; margin: 20px 0">
+                    <div class="round">
+                        <input type="checkbox" checked id="checkbox" />
+                        <label for="checkbox"></label>
+                    </div>
+                    <div style="margin-left: 30px; display: flex; align-items:center">
+                        Unlimited product updates
+                    </div>
+                </div>
+                <div style="display: flex; align-items:center; margin: 20px 0">
+                    <div class="round">
+                        <input type="checkbox" checked id="checkbox" />
+                        <label for="checkbox"></label>
+                    </div>
+                    <div style="margin-left: 30px; display: flex; align-items:center">
+                        Unlimited product updates
+                    </div>
+                </div>
+                <div style="display: flex; align-items:center; margin: 20px 0">
+                    <div class="round">
+                        <input type="checkbox" checked id="checkbox" />
+                        <label for="checkbox"></label>
+                    </div>
+                    <div style="margin-left: 30px; display: flex; align-items:center">
+                        Unlimited product updates
+                    </div>
+                </div>
+                <div style="display: flex; align-items:center; margin: 20px 0">
+                    <div class="round">
+                        <input style="background-color: gray;" type="checkbox" checked id="checkbox" />
+                        <label style="background-color: gray;" for="checkbox"></label>
+                    </div>
+                    <div style="margin-left: 30px; display: flex; align-items:center">
+                        1GB Cloud storage
+                    </div>
+                </div>
+                <div style="display: flex; align-items:center; margin: 20px 0">
+                    <div class="round">
+                        <input style="background-color: gray;" type="checkbox" checked id="checkbox" />
+                        <label style="background-color: gray;" for="checkbox"></label>
+                    </div>
+                    <div style="margin-left: 30px; display: flex; align-items:center">
+                        Email and community support
+                    </div>
+                </div>
 
-                </ol>
-                <button style="color: #23A6F0;">Try for free</button>
+
+                <button
+                    style="background-color: #23A6F0; color: white; padding: 20px; font-size: 16px; border-radius: 7px; border: none; width: 200px;">Try
+                    for free</button>
             </div>
         </div>
         <div class="standard-1 standard-3">
@@ -261,7 +300,24 @@
                 <div class="bottom-image">
                     <img src="zed-2.png">
                 </div>
-
+                <div style="color: black; width: 100%;">
+                    <div>
+                        <label for="First name">First name</label>
+                        <input style="width:100%; height: 40px;" type="text" placeholder="First name*">
+                    </div>
+                    <div>
+                        <label for="Email Address">Email <Address></Address></label>
+                        <input style="width: 100%; height: 40px;" type="text" placeholder="First name*">
+                    </div>
+                    <div>
+                        <label for="Department">Department</label>
+                        <input style="width: 100%; height: 40px;" type="text" placeholder="First name*">
+                    </div>
+                    <div>
+                        <label for="Time">Time*</label>
+                        <input style="width: 100%; height: 40px;" type="text" placeholder="First name*">
+                    </div>
+                </div>
 
 
             </div>
@@ -333,12 +389,12 @@
         </div>
 
         <div>
-        <p class="triangle">Get in Touch</p>
-        <ol>
-<li>(480)55-0103</li>
-<li>4517 Washington Ave</li>
-<li>debra.holt@example.com</li>
-        </ol>
+            <p class="triangle">Get in Touch</p>
+            <ol>
+                <li>(480)55-0103</li>
+                <li>4517 Washington Ave</li>
+                <li>debra.holt@example.com</li>
+            </ol>
         </div>
 
     </div>
