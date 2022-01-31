@@ -308,7 +308,7 @@ border: none;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 600px;
 }
 
 .login-form {
@@ -350,8 +350,6 @@ font-size: 25px;
 }
 
 .content{
-
-    font-size: 40px;
     font-style: Montserrat;
     font-weight: bold;
 }
@@ -388,7 +386,7 @@ font-weight: bold;
 }
 
 .third{
-
+margin-top: 200px;
     display: flex;
     justify-content: center;
     
@@ -449,5 +447,6 @@ list-style: none;
 
     color: white;
     background-color: #23A6F0;
-    padding: 3opx;
+    padding: 15px;
 }
+
