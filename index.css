@@ -22,8 +22,12 @@ h1 {
 
 .second {
     display: flex;
-    justify-content: space-between;
-}
+ flex-wrap: wrap;
+ justify-content: center;
+ width: 70%;
+ align-items: center;
+ border:solid rebeccapurple;
+} 
 
 ul {
     list-style: none;
@@ -450,3 +454,26 @@ list-style: none;
     padding: 15px;
 }
 
+
+.star{
+justify-content: center;
+display: flex;
+
+}
+
+.rectify{
+display: flex;
+align-items: center;
+margin: 20px 0;
+
+    
+}
+
+#stand{
+    background-color: #252B42;
+    color: white;
+}
+h6{
+
+font-size:20px;
+}
