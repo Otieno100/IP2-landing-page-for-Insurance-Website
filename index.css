@@ -464,7 +464,9 @@ display: flex;
 .rectify{
 display: flex;
 align-items: center;
-margin: 20px 0;
+margin-top: 200px;
+justify-content: space-between;
+
 
     
 }
@@ -472,8 +474,26 @@ margin: 20px 0;
 #stand{
     background-color: #252B42;
     color: white;
+    
 }
 h6{
 
 font-size:20px;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.break{
+display: flex;
+margin-top: 200px;
+justify-content: center;
+align-items: center;
+
+
 }
