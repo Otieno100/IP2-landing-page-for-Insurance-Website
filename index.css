@@ -65,6 +65,7 @@ ul li {
     border: none;
     font-size: 19px;
     border-radius: 8px;
+    cursor: pointer;
 
 }
 
