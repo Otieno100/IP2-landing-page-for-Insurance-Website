@@ -25,7 +25,7 @@ Mit Licence
 copyright (c) [2021] [Brian Otieno]
 
 Permission is hereby granted to any person obtaining a copy
-of this software and associated documentation files
+of this software and associated documentation files and
 in the Software without restriction.
 
 
